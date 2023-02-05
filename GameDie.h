@@ -6,7 +6,9 @@ class GameDie
   public:
    GameDie();
    int roll();
+  private:
+   const static int SIDES = 6;
+   int counter[SIDES];
 };
 
-#include "GameDie.cpp"
 #endif
